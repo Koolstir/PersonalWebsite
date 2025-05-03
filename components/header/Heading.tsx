@@ -15,7 +15,7 @@ export default function Heading() {
             </li>
             <li>
               <a
-                href="https://www.shayvanpelt.com/"
+                href="#Projects"
                 className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
               >
                 Projects
@@ -23,7 +23,7 @@ export default function Heading() {
             </li>
             <li className="ml-6">
               <a
-                href="https://www.youtube.com/"
+                href="#Contact"
                 className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
               >
                 Contact
