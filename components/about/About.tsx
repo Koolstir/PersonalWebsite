@@ -5,63 +5,76 @@ export default function About() {
         <header className="mt-20 mb-10 text-4xl font-semibold text-center">
           About
         </header>
-        <p className="mx-10 mb-10 text-lg font-mono w-300 text-center">
-          Proficient in web development with expertise in NextJS and Postgres,
-          having led the design and creation of an internal employee training
-          portal. Experienced in automation using PowerShell for streamlined
-          onboarding and offboarding processes. Skilled in website redesign,
-          demonstrated by overhauling a 50-page official website, and adept in
-          implementing CI/CD changes for Azure services to enhance development
-          workflows.
+        <p className="mx-10 mb-10 text-lg font-mono max-w-2xl text-center">
+          I’m a computer science student and aspiring developer with a growing
+          foundation in programming, problem-solving, and software development.
+          I enjoy working with languages like Python, Java, and C, and I’m eager
+          to keep building my skills by creating projects that solve real
+          problems. As I continue learning, I’m excited to explore new
+          technologies and contribute to meaningful software solutions.
         </p>
       </section>
-      <section>
-        <div className="flex justify-center">
-          <div className="flex flex-col items-center text-center mr-10">
-            <header className="mb-5 font-extrabold text-xl text-center">
+
+      <section className="mt-12 max-w-5xl mx-auto px-6">
+        <div className="grid md:grid-cols-2 gap-12">
+          {/* Programming Languages */}
+          <div className="flex flex-col items-center text-center">
+            <header className="mb-5 font-extrabold text-xl">
               Programming Languages
             </header>
-            <div className="grid grid-cols-3 gap-12">
-              <div className="font-semibold text-center">
+            <div className="grid grid-cols-3 gap-8">
+              <div className="flex flex-col items-center p-4 rounded-xl shadow hover:shadow-lg transition">
                 <img
-                  className="rounded-full w-24 h-24 bg-transparent"
+                  className="rounded-full w-20 h-20 bg-transparent mb-2"
                   src="/python.png"
                   alt="Python Logo"
                 />
-                Python
+                <span className="font-semibold">Python</span>
               </div>
 
-              <div className="font-semibold text-center">
+              <div className="flex flex-col items-center p-4 rounded-xl shadow hover:shadow-lg transition">
                 <img
-                  className="rounded-full w-24 h-24 bg-transparent"
+                  className="rounded-full w-20 h-20 bg-transparent mb-2"
                   src="/C.png"
                   alt="C Logo"
                 />
-                C
+                <span className="font-semibold">C</span>
               </div>
-              <div className="font-semibold text-center">
+
+              <div className="flex flex-col items-center p-4 rounded-xl shadow hover:shadow-lg transition">
                 <img
-                  className="rounded-full w-24 h-24 bg-transparent"
+                  className="rounded-full w-20 h-20 bg-transparent mb-2"
                   src="/tailwind.png"
                   alt="Tailwind Logo"
                 />
-                Tailwind CSS
+                <span className="font-semibold">Tailwind CSS</span>
               </div>
             </div>
           </div>
 
-          <div className="flex flex-col items-center text-center ml-10">
+          {/* Developer Skills */}
+          <div className="flex flex-col items-center text-center">
             <header className="mb-5 font-extrabold text-xl">
               Developer Skills
             </header>
-            <div className="grid grid-cols-2 gap-4">
-              <div className="font-semibold text-center">
+            <div className="grid grid-cols-2 gap-8">
+              <div className="flex flex-col items-center p-4 rounded-xl shadow hover:shadow-lg transition">
                 <img
-                  className="rounded-full w-24 h-24 bg-transparent"
+                  className="rounded-full w-20 h-20 bg-transparent mb-2"
                   src="/Git.png"
                   alt="Git Logo"
                 />
-                Git
+                <span className="font-semibold">Git</span>
+              </div>
+
+              {/* Example of adding more */}
+              <div className="flex flex-col items-center p-4 rounded-xl shadow hover:shadow-lg transition">
+                <img
+                  className="rounded-full w-20 h-20 bg-transparent mb-2"
+                  src="/linux.jpg"
+                  alt="Linux Logo"
+                />
+                <span className="font-semibold">Linux</span>
               </div>
             </div>
           </div>

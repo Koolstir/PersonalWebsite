@@ -9,7 +9,7 @@ export default function Heading() {
               <a
                 href="#About"
                 className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
-              > 
+              >
                 About
               </a>
             </li>
@@ -30,9 +30,13 @@ export default function Heading() {
               </a>
             </li>
           </ul>
-          <button className="flex ml-auto bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mr-8 rounded-full">
+          <a
+            href="/KJ_Resume.pdf"
+            download="Kaelan_Jantzen_Resume.pdf"
+            className="flex ml-auto bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mr-8 rounded-full"
+          >
             Resume
-          </button>
+          </a>
         </nav>
       </div>
     </header>
